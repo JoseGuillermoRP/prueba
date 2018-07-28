@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1,maximun-scale=1, minimun-scale=1">
+    <link rel="stylesheet" href="../css/fontello.css">
+
+    <title>Floreria Aranza</title>
+  </head>
+  <body>
+
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      body{
+          background:#3E3E3E;
+      }
+      .android{
+    background: #B23260;
+        left: 0;
+        right: 0;
+        top:0;
+        margin: 0 auto;
+          border:solid ;
+           width: 359px;
+    border:solid;
+    margin-bottom: 50px;
+      }
+      header {
+          font-family: 'Dancing Script', cursive;
+          top:0;
+          width: 356px;
+          height: 65px;
+          background: #420120;
+          color: #fff;
+          display: inline-block;
+          position: fixed;
+          z-index: 100;
+          
+      }
+      .footer{
+          width: 356px;
+          height: 50px;
+          background: #420120;
+           color: #fff;
+          position: fixed;
+          bottom: 0;
+        
+          
+
+      }
+      .contenedor1{
+          display: flex;
+          text-align: center;
+         margin-bottom: 12px;
+          
+      }
+      .imagen1 {
+          background: #fff;
+          width: 180px;
+          border: solid 2px ;
+          border-color: #B23260;
+          margin-top: 15px;
+      }
+   
+      .contenedor{
+    margin-top: 20px;
+          
+      }
+      .imagen{
+          display: block;
+          margin: auto;
+          background: #fff;
+          width:350px;
+          height: 260px;
+          border: solid 2px ;
+          border-color: #B23260;
+    
+      }
+      .producto {
+          display: block;
+          margin: auto;
+        width: 250px;
+      }
+      .coteiner1{
+          width: 98%;
+          margin: auto;
+      }
+      #menu-bar{
+          display: none;
+      }
+      .menu{
+/*          display: none;*/
+          position: absolute;
+          top: 65px;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          background: rgba(51,51,51,0.9);
+          transition: all 0.5s;
+             transform:  translateX(-250%);
+          
+      }
+
+      .menu a{
+          display: block;
+          color: #fff;
+          height: 50px;
+          text-decoration: none;
+          padding: 15px;
+          border-bottom: 1px solid rgba(255,255,255,0.5);
+      }
+      .menu a:hover{
+          background: rgba(255,255,255,0.3);
+      }
+      #menu-bar:checked ~ .menu {
+                 transform:  translateX(0%)
+      }
+      h3{
+          margin-top: 10px;
+          float: left;
+              font-size:24px;
+      }
+      header label{
+          float: right;
+          font-size: 22px;
+          margin: 6px 0;
+          cursor: pointer;
+      }
+      header .coteiner1{
+          margin-top: 13px;
+          display: table;
+      }
+      .icono{
+          display: inline-block;
+          width: 55px;
+          margin-left: 18px;
+          margin-right: -6px;
+              margin-top:16px;
+          
+      }
+      a.footer{
+          color: #fff;
+      }
+      .button{
+          display:block;
+          margin: auto;
+          text-align: center;
+          text-decoration: none;
+          background: green;
+          border-radius: 10px;
+          width: 120px;
+          height: 25px;
+          color: #fff;
+          font-size: 20px;
+      }
+      .texto{
+          color: #E5E1E5;
+          margin-left: 15px;
+      }
+      .precio{
+          display: inline-block;
+          color: #fff;
+          margin-left: 10px;
+      }
+    
+      
+</style>
+  <div class="android" >
+  <header>
+     
+      <div class="barra">
+      <div class="coteiner1">
+     
+         <h3>Floreria Aranza</h3>
+     <input type="checkbox" id="menu-bar">
+     <label for="menu-bar" class="icon-menu"></label>
+    <nav class="menu">
+         
+              <a href="">Mi Cuenta</a>
+              <a href="">Producto Adicionales</a>
+              <a href="">Paquetes</a>
+         
+  
+     </nav>
+     </div>
+         
+  </div>
+      
+  </header>
+  <br>
+  <br>
+  <br>
+  <div class="contenedor">
+      <div class="imagen">
+          <img src="../imagenes/producto2.PNG" class="producto" alt=""><a  href="pago.html" class="button">Comprar</a>
+      </div>
+     <div class="texto">
+         <p>Producto calificado: </p><img src="../imagenes/estrella.png"  width="20px" alt=""><img src="../imagenes/estrella.png"  width="20px" alt=""><img src="../imagenes/estrella.png"  width="20px" alt=""><img src="../imagenes/estrellallena.png"  width="20px" alt=""><img src="../imagenes/estrellallena.png"  width="20px" alt="">
+     </div>
+     <div class="precio">
+         <label for="">Precio:</label><p>120 soles.
+         </p>
+         <label for="">Tamaño:</label><p>30 cm:</p>
+         <label for="">Alta demanda.</label><br>
+         <u><label for="" style="font-size: 19px;font-family: 'Dancing Script';">Te recomendamos estos productos:</label></u>
+     </div>
+  </div>
+  
+   <div class="contenedor1">
+      <div class="imagen1"><img src="../imagenes/producto3.PNG" width="100px" alt=""><a href="producto3.html" class="button">Ver Precio</a></div>
+      <div class="imagen1"><img src="../imagenes/producto4.PNG"  width="90px" alt=""><a href="producto4.html" class="button">Ver Precio</a></div>
+  </div>
+ 
+  <footer class="footer">
+<a href="catalogo.html" style="text-decoration: none;color: #fff;"><div class="icon-casa icono"></div></a><div class="icon-buscar icono"></div><div class="icon-corazon icono "><a href=""></a></div>  <div class="icon-usuario icono "><a href=""></a></div> <div class="icon-carrito icono"><a href=""></a></div>
+  </footer>
+ 
+  </div>
+  
+  
+  
+  
+
+
+   
+
+ 
+
+  </body>
+</html>

@@ -1,0 +1,34 @@
+
+.android{
+          margin-top: 20px;
+       position: absolute;
+    background: #B23260;
+        left: 0;
+        right: 0;
+        top:0;
+        margin: 0 auto;
+          border:solid ;
+           width: 359px;
+    border:solid;
+    margin-bottom: 50px;
+      }
+.contenedor{
+    background:#420120;
+    width: 100%;
+    height: 20px;
+}
+
+     
+      .imagen{
+          border: solid;
+      }
+      .contenedor{
+          display: flex;
+          text-align: center;
+          
+      }
+      .imagen{
+          width: 180px;
+          border: solid;
+          margin-top: 15px;
+      }

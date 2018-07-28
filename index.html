@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+
+    <title>Floreria Aranza</title>
+  </head>
+  <body>
+
+  <style>
+      body{
+          background: #3E3E3E;
+      }
+      .android{
+          background: #B23260;
+          margin-top: 20px;
+       position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        margin: 0 auto;
+          border:solid ;
+           width: 359px;
+    border:solid;
+    margin-bottom: 50px;
+      }
+      .texbox{
+
+        display: block;
+        margin:auto;
+        text-align: center;
+        font-size: 20px;
+        width: 300px;
+       height: 30px;
+       border-radius: 10px;
+      }
+      .Ingresar{
+        display: block;
+        margin:auto;
+        width: 200px;
+        height: 35px;
+        border-radius: 10px;
+          background: #420120;
+          color: white;
+          font-size: 20px;
+      }
+      .imagen img{
+        display: block;
+        margin:auto;
+        width: 361px;
+      }
+
+.a{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}   
+      .redes img{
+          
+          margin-left:12px;
+      }
+      .redes{
+          margin-left: 23px;
+          margin-bottom: 35px;
+      }
+
+</style>
+  <div class="android" >
+<script type="text/javascript">
+      function validar(){
+          var usuario = document.getElementById("usuario").value;
+      
+          var contraseña = document.getElementById("contraseña").value;
+          if(usuario=="Admin"&&contraseña=="1234"||usuario=="Zarit"&&contraseña=="1234"||usuario=="Dyane"&&contraseña=="1234"||usuario=="Patricia"&&contraseña=="1234"||usuario=="Mayra"&&contraseña=="1234"){
+              alert("usuario y contraseña validos");
+             document.location=("presentacion/catalogo.html");
+             
+          }else{
+              alert("no es valido tu correo y usuario");
+          }
+      }
+</script>
+
+<div class="imagen">
+ <img src="imagenes/portada1.PNG" alt="">
+</div>
+    <br>
+    <br>
+    <br>
+ 
+    <br>
+
+     <input type="text" placeholder="Usuario" id="usuario" class="texbox">
+     <br>
+    <input type="password" placeholder="Contraseña" id="contraseña" class="texbox">
+    <br>
+    <br>
+<input type="button" value="Ingresar" class="Ingresar" onclick="validar()"  >
+    
+      <br>
+      <br>
+      <center><a href="" class="a">¿Olvidó su contraseña?</a></center>
+      <br>
+          <center><a href="" class="a">Crear cuenta</a></center>
+      <br>
+    <div class="redes">
+      
+    <a href=""><img src="imagenes/facebook.png" width="65px" alt=""></a>
+    <a href=""><img src="imagenes/google.png" width="55px" alt=""></a>
+    <a href=""><img src="imagenes/twiter.png" width="55px" alt=""></a>
+    <a href=""><img src="imagenes/snapchar.png" width="55px" alt=""></a>
+  </div>
+
+  </div>
+  
+ 
+  
+  
+
+
+   
+
+ 
+
+  </body>
+</html>
